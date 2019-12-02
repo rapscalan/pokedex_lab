@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import htmlToDOM from './util/htmlToDOM.js';
+import htmlToDOM from './util/html-to-DOM.js';
 
 class Component {
     constructor(props) {
