@@ -10,12 +10,12 @@
     height: 50px;
     width: 50px;
     font-size: 2em;
-    background-color: sandybrown;
+    background-color: #645FAB;
     color: white;
 }
 
 .paging button:disabled {
-    background-color: bisque;
+    background-color: rgb(168, 164, 211);
     color: oldlace;
 }
 

@@ -1,0 +1,26 @@
+#search-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: whitesmoke;
+    padding: 4px;
+    border-bottom: tomato;
+}
+
+.search {
+    margin-top: 52px;
+    align-content: center;
+}
+
+.search-drop {
+    display: flex;
+    margin: 10px;
+}
+ #search-by {
+     margin: 0 10px;
+ }
+ .search-test {
+     display: flex;
+     align-items: center;
+     margin: 0 15px;
+ }

@@ -23,6 +23,7 @@ class Paging extends Component {
             else {
                 page = parsedPage;
             }
+            
         }
 
         updateControls();
@@ -37,7 +38,7 @@ class Paging extends Component {
             searchParams.set('page', page + increment);
 
             window.location.hash = searchParams.toString();
-        }
+        };
 
         prevButton.addEventListener('click', () => {
             updatePage(-1);

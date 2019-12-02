@@ -1,7 +1,7 @@
 import Component from '../Component.js';
 import Header from '../common/Header.js';
 import PokeList from './PokeList.js';
-import SearchOptions from './Search.js';
+import Search from './Search.js';
 import Sort from './Sort.js';
 import Paging from './Paging.js';
 import { getPokemon } from '../services/pokedex-api.js';
@@ -13,12 +13,12 @@ class PokedexApp extends Component {
         dom.prepend(header.renderDOM());
 
         const searchSection = dom.querySelector('.search');
-        //const search = new Search();
-        //searchSection.prepend(search.renderDOM());
+        const search = new Search();
+        searchSection.prepend(search.renderDOM());
         
         const sortSection = dom.querySelector('.sort');
-        //const sort = new Sort();
-        //sortSection.prepend(sort.renderDOM());
+        const sort = new Sort();
+        sortSection.prepend(sort.renderDOM());
 
         const cardSection = dom.querySelector('.cards');
         const pokeList = new PokeList({ pokeCards: [] });
